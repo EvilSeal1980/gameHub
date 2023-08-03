@@ -1,7 +1,6 @@
 import React from "react";
 import useGenres from "../hooks/useGenres";
 import { Genre } from "../hooks/useGenres";
-import useData from "../hooks/useData";
 import {
   Button,
   HStack,
@@ -9,8 +8,6 @@ import {
   Image,
   List,
   ListItem,
-  Spinner,
-  Text,
 } from "@chakra-ui/react";
 import getCroppedImageUrl from "../services/image-url";
 import GenreListSkeleton from "./GenreListSkeleton";
